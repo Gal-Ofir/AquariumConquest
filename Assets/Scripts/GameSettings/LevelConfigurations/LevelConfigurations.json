@@ -1,0 +1,15 @@
+[
+    {
+        "LevelId": 0,
+        "EnemySpawnRate": "00:00:00:03",
+        "MinEnemySpeed": 10,
+        "MaxEnemySpeed": 10,
+        "ProbabilityOfSmallerEnemyFishSpawned": 0.55,
+        "EnemyFishEatenToWin": 2,
+        "PlayerGrowthRate": 2,
+        "PowerUpList": {
+            "Growth": 1,
+            "God": 1
+        } 
+    }
+]
