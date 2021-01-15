@@ -1,0 +1,24 @@
+1. Increase fish spawn rate
+2. Decrease fish speed
+3. Make levels easier
+4. Add powerup to tutorial
+
+
+
+● CPI - 0.18$
+	a. Videos showing a lot of fish performed the best
+● Retention
+	a. D1 - 36%
+	b. D3 - 10%
+● Usage - 10 mins
+● Sessions - 1.5 per user
+Other data finding:
+	● For those who finished level 1, retention is 10% better.
+	● 70% of users completed level 1.
+	● Completion rate drop for each level by a large margin.
+
+
+1. CPI is good - we will add more fish ingame by increasing spawn rate and decreasing fish speed. Decreasing fish speed will make the game easier as well
+2. Retention could be better - We will make level 1 (and generally the levels) easier. This means decreasing the total score needed for win condition
+   as well as making the probabilities of spawning fish smaller than the player larger, and steadily make the game harder as levels increase
+3. We will also add powerUp to tutorial to make it a bit longer and more engaging
