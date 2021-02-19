@@ -1,0 +1,8 @@
+Feedback:
+---------
+When enemy and player fish sizes are very close, it is hard to figure out which one is bigger,
+Making it frustrating if you tried to eat a fish (and lose) because you thought it was smaller than you.
+
+Action Taken:
+-------------
+Added a red outline to all enemy fish who are bigger than the player

@@ -1,9 +1,5 @@
-1. Increase fish spawn rate
-2. Decrease fish speed
-3. Make levels easier
-4. Add powerup to tutorial
-
-
+SOFT LAUNCH RESULTS:
+--------------------
 
 ● CPI - 0.18$
 	a. Videos showing a lot of fish performed the best
@@ -17,8 +13,16 @@ Other data finding:
 	● 70% of users completed level 1.
 	● Completion rate drop for each level by a large margin.
 
+ACTION TAKEN:
+-------------
 
-1. CPI is good - we will add more fish ingame by increasing spawn rate and decreasing fish speed. Decreasing fish speed will make the game easier as well
-2. Retention could be better - We will make level 1 (and generally the levels) easier. This means decreasing the total score needed for win condition
-   as well as making the probabilities of spawning fish smaller than the player larger, and steadily make the game harder as levels increase
-3. We will also add powerUp to tutorial to make it a bit longer and more engaging
+1. CPI is good 
+   Since videos with a lot of fish perfomed better, added more fish ingame by increasing spawn rate 
+   and decreasing fish speed. Decreasing fish speed will make the game easier as well
+
+2. Retention could be better - 
+   Changed level 1 (and generally the game) to be easier.
+   This means decreasing the total score needed for win condition as well as making the probabilities of spawning 
+   fish smaller than the player larger, and steadily make the game harder as levels increase
+
+3. Added a pickup power up to tutorial to make it a bit longer and more engaging
