@@ -5,17 +5,17 @@ using UnityEngine;
 public static class GameObjectExtensions
 {
     /// <summary>
-    /// An 'extension' to be able to find all ingame (active or inactive) objects that start with the given prefix
+    /// An 'extension' to be able to find all ingame (active or inactive) objects that their tags start with the given prefix
     /// </summary>
-    /// <param name="prefix">tag prefix</param>
+    /// <param name="tagPrefix">tag prefix</param>
     /// <returns>Collection of GameObjects</returns>
-    public static IEnumerable<GameObject> FindAllIngameObjectsWithPrefix(string prefix)
+    public static IEnumerable<GameObject> FindAllIngameObjectsWithTagPrefix(string tagPrefix)
     {
         var allActiveGameObjects = (Resources.FindObjectsOfTypeAll(typeof(GameObject)) as GameObject[]);
 
         return allActiveGameObjects.Where(gameObject => gameObject != null &&
                                                         !string.IsNullOrWhiteSpace(gameObject.tag) &&
-                                                        gameObject.tag.StartsWith(prefix) &&
+                                                        gameObject.tag.StartsWith(tagPrefix) &&
                                                         gameObject.tag.Contains("Ingame"));
     }
 }

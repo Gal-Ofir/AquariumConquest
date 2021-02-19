@@ -10,6 +10,7 @@ public class EnemyBehavior : FishBehaviorBase
 
     private void Awake()
     {
+        // default values
         EnemySpeed = 0;
         SpawnFromLeft = true;
     }
@@ -17,6 +18,7 @@ public class EnemyBehavior : FishBehaviorBase
     /// <inheritdoc/>
     public override void HandleMovement()
     {
+        // move fish according to the position spawned (left or right)
         var xDirection = SpawnFromLeft ? 1 : -1;
         var enemyFishSpeedModifier = LevelManager.GetInstance().FishEnemySpeedModifier;
         _rigidBody.transform.position += new Vector3(xDirection * EnemySpeed * enemyFishSpeedModifier, 0, 0);
@@ -36,11 +38,6 @@ public class EnemyBehavior : FishBehaviorBase
         gameObject.transform.position = startPosition;
 
         gameObject.transform.eulerAngles = SpawnFromLeft ? Vector3.zero : new Vector3(0f, 180f, 0f);
-    }
-
-    public override void LateUpdate()
-    {
-        base.LateUpdate();
     }
 
     /// <summary>

@@ -543,6 +543,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a916441b85d40d4e93a865c81840e8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LargerEnemySpriteMaterial: {fileID: 2100000, guid: 4d2b288da1e5da2448b3206eba98789f,
+    type: 2}
   EnemyFishPrefabList:
   - {fileID: 5566459314998716311, guid: fa8b3abeae62fe446b6f39f90e0c6461, type: 3}
   - {fileID: 5566459314998716311, guid: 8efdc94d31d1be4438936d450b1d1c1b, type: 3}

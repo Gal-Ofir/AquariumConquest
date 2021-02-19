@@ -42,7 +42,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -50,7 +50,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -71,10 +71,139 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites: []
-    outline: []
+    outline:
+    - - {x: 98.5, y: -20.5}
+      - {x: 97.5, y: -20.5}
+      - {x: 95.5, y: -18.5}
+      - {x: 94.5, y: -18.5}
+      - {x: 92.5, y: -16.5}
+      - {x: 91.5, y: -16.5}
+      - {x: 88.5, y: -14.5}
+      - {x: 88.5, y: -13.5}
+      - {x: 89.5, y: -12.5}
+      - {x: 90.5, y: -12.5}
+      - {x: 92.5, y: -10.5}
+      - {x: 93.5, y: -10.5}
+      - {x: 101.5, y: -4.5}
+      - {x: 101.5, y: 58.5}
+      - {x: 100.5, y: 60.5}
+      - {x: 95.5, y: 62.5}
+      - {x: 51.5, y: 62.5}
+      - {x: 47.5, y: 64.5}
+      - {x: 44.5, y: 64.5}
+      - {x: 40.5, y: 66.5}
+      - {x: 37.5, y: 66.5}
+      - {x: 33.5, y: 68.5}
+      - {x: 30.5, y: 68.5}
+      - {x: 26.5, y: 70.5}
+      - {x: 23.5, y: 70.5}
+      - {x: 19.5, y: 72.5}
+      - {x: 16.5, y: 72.5}
+      - {x: 15.5, y: 73.5}
+      - {x: 13.5, y: 73.5}
+      - {x: 9.5, y: 75.5}
+      - {x: 6.5, y: 75.5}
+      - {x: 2.5, y: 77.5}
+      - {x: -0.5, y: 77.5}
+      - {x: -4.5, y: 79.5}
+      - {x: -7.5, y: 79.5}
+      - {x: -11.5, y: 81.5}
+      - {x: -14.5, y: 81.5}
+      - {x: -18.5, y: 83.5}
+      - {x: -21.5, y: 83.5}
+      - {x: -25.5, y: 85.5}
+      - {x: -28.5, y: 85.5}
+      - {x: -29.5, y: 86.5}
+      - {x: -31.5, y: 86.5}
+      - {x: -35.5, y: 88.5}
+      - {x: -48.5, y: 88.5}
+      - {x: -48.5, y: 56.5}
+      - {x: -49.5, y: 56.5}
+      - {x: -57.5, y: 62.5}
+      - {x: -59.5, y: 63.5}
+      - {x: -62.5, y: 65.5}
+      - {x: -65.5, y: 65.5}
+      - {x: -72.5, y: 58.5}
+      - {x: -72.5, y: 56.5}
+      - {x: -50.5, y: 39.5}
+      - {x: -54.5, y: 35.5}
+      - {x: -55.5, y: 35.5}
+      - {x: -63.5, y: 28.5}
+      - {x: -64.5, y: 28.5}
+      - {x: -68.5, y: 24.5}
+      - {x: -69.5, y: 24.5}
+      - {x: -72.5, y: 21.5}
+      - {x: -73.5, y: 21.5}
+      - {x: -96.5, y: 33.5}
+      - {x: -101.5, y: 34.5}
+      - {x: -101.5, y: 26.5}
+      - {x: -99.5, y: 23.5}
+      - {x: -99.5, y: 21.5}
+      - {x: -95.5, y: 14.5}
+      - {x: -95.5, y: 12.5}
+      - {x: -91.5, y: 5.5}
+      - {x: -91.5, y: 3.5}
+      - {x: -87.5, y: -3.5}
+      - {x: -87.5, y: -5.5}
+      - {x: -83.5, y: -13.5}
+      - {x: -85.5, y: -16.5}
+      - {x: -85.5, y: -18.5}
+      - {x: -88.5, y: -23.5}
+      - {x: -88.5, y: -25.5}
+      - {x: -91.5, y: -30.5}
+      - {x: -91.5, y: -32.5}
+      - {x: -94.5, y: -37.5}
+      - {x: -94.5, y: -39.5}
+      - {x: -97.5, y: -44.5}
+      - {x: -97.5, y: -46.5}
+      - {x: -101.5, y: -54.5}
+      - {x: -101.5, y: -62.5}
+      - {x: -99.5, y: -62.5}
+      - {x: -76.5, y: -51.5}
+      - {x: -74.5, y: -49.5}
+      - {x: -49.5, y: -37.5}
+      - {x: -48.5, y: -35.5}
+      - {x: -48.5, y: -83.5}
+      - {x: -43.5, y: -88.5}
+      - {x: 99.5, y: -88.5}
+      - {x: 101.5, y: -86.5}
+      - {x: 101.5, y: -22.5}
+      - {x: 100.5, y: -22.5}
+    - - {x: -57.5, y: 15.5}
+      - {x: -57.5, y: 14.5}
+      - {x: -55.5, y: 16.5}
+      - {x: -54.5, y: 16.5}
+      - {x: -51.5, y: 18.5}
+      - {x: -49.5, y: 20.5}
+      - {x: -48.5, y: 10.5}
+      - {x: -48.5, y: 11.5}
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000

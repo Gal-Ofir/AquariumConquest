@@ -6,6 +6,8 @@ using UnityEngine.Events;
 
 public class LevelManager : MonoBehaviour
 {
+    public Material LargerEnemySpriteMaterial;
+
     public List<Transform> EnemyFishPrefabList;
     public List<Transform> ObstaclePrefabList;
 
@@ -517,7 +519,7 @@ public class LevelManager : MonoBehaviour
         DestroyAll(obstacles);
 
         // find all active powerups and destroy them
-        var powerUps = GameObjectExtensions.FindAllIngameObjectsWithPrefix("PowerUp").ToList();
+        var powerUps = GameObjectExtensions.FindAllIngameObjectsWithTagPrefix("PowerUp").ToList();
 
         DestroyAll(powerUps);
 
@@ -567,12 +569,18 @@ public class LevelManager : MonoBehaviour
         enemyFish.gameObject.transform.localScale = enemyFishScale;
         enemyBehavior.EnemySpeed = enemySpeed;
         enemyBehavior.SpawnFromLeft = spawnFromLeft;
+
+        // if the player is smaller - set "EnemyLargerMaterial" to differentiate between smaller and larger fish
+        if (_player.transform.localScale.x < enemyFishScale.x)
+        {
+            var enemySprite = enemyFish.gameObject.GetComponent<SpriteRenderer>();
+            enemySprite.material = LargerEnemySpriteMaterial;
+        }
     }
 
     /// <summary>
     /// Returns a random enemy fish scale, according to level config
     /// </summary>
-    /// <returns></returns>
     private Vector3 GetEnemyFishScale()
     {
         var probabilityOfSmallerFish = GetCurrentLevelConfigurations().ProbabilityOfSmallerEnemyFishSpawned;

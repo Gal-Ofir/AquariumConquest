@@ -9,6 +9,7 @@ public class PowerUpBehavior : MonoBehaviour
 
         gameObject.transform.position = new Vector3(xInitialPosition, yInitialPosition, GameConstants.FISH_Z_VALUE);
 
+        // set the powerup's tag as 'ingame' to differ from inactive powerups
         gameObject.tag = gameObject.tag + ".Ingame";
     }
 
